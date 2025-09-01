@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 800px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    .contact, .section {
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background: #3498db;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #2980b9;
+    }
+
+    #message {
+      margin-top: 15px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Sarathkumar I</h1>
+    <p class="contact">📧 velansarath07@email.com | 📞 +91 7418158048</p>
+    
+    <div class="section">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer with skills in HTML, CSS, and JavaScript. I love creating clean and responsive websites.</p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>B.Sc. Computer Science - Annamalai University (2020)</li>
+        <li>Higher Secondary - Govt School (2024)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js, Node.js</li>
+        <li>SQL, Git & GitHub</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <p><strong>Web Developer Intern</strong> - Tech Company (2022)</p>
+      <p>Worked on front-end development and improved website UI/UX.</p>
+    </div>
+
+    <button class="btn" onclick="showMessage()">Click for Greeting</button>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerText = "✅ Thank you for visiting my resume!";
+    }
+  </script>
+
+</body>
+    </html>
